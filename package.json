@@ -1,0 +1,23 @@
+{
+    "name": "card-system-baota",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "tsx ./src"
+    },
+    "author": "Prk",
+    "license": "MIT",
+    "devEngines": {
+        "packageManager": {
+            "name": "pnpm",
+            "version": "12.16.1",
+            "onFail": "download"
+        }
+    },
+    "packageManager": "pnpm@12.16.1",
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2"
+    }
+}
